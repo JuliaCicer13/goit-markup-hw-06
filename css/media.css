@@ -1,3 +1,156 @@
+/* section-first */
+@media screen and (min-width: 428px) {
+  .container-first {
+    max-width: 428px;
+  }
+  .container-page-one {
+    margin: auto;
+  }
+  .section-page-one {
+    background-color: var(--color-navy-blue);
+    /* max-width: 1440px; */
+    /* height: 600px; */
+    margin: auto;
+    padding-top: 130px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .section-title {
+    font-family: var(--primary-font);
+    color: var(--color-white);
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    height: 120px;
+    margin: 0 auto;
+    max-width: 320px;
+    margin-bottom: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .button-title {
+    font-family: var(--primary-font);
+    background-color: var(--color-iris);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 16px, 32px, 16px, 32px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button-title:hover {
+    background-color: var(--color-ocean);
+  }
+  .button-title:focus {
+    background-color: var(--color-ocean);
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-first {
+    max-width: 768px;
+  }
+  .section-page-one {
+    background-color: var(--color-navy-blue);
+
+    margin: auto;
+    padding: 120px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .button-title {
+    font-family: var(--primary-font);
+    background-color: var(--color-iris);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 16px, 32px, 16px, 32px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button-title:hover {
+    background-color: var(--color-ocean);
+  }
+  .button-title:focus {
+    background-color: var(--color-ocean);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .container-first {
+    max-width: 1158px;
+  }
+  .section-page-one {
+    background-color: var(--color-navy-blue);
+    max-width: 1440px;
+
+    margin: auto;
+    padding: 120px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .button-title {
+    font-family: var(--primary-font);
+    background-color: var(--color-iris);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    padding: 16px, 32px, 16px, 32px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button-title:hover {
+    background-color: var(--color-ocean);
+  }
+  .button-title:focus {
+    background-color: var(--color-ocean);
+  }
+}
 /* section-two */
 /* mobile */
 @media screen and (min-width: 428px) {
@@ -37,6 +190,7 @@
     width: 320px;
     height: 48px;
     font-weight: 500;
+    margin-bottom: 10px;
   }
 }
 /* table */
@@ -145,17 +299,16 @@
     margin-bottom: 72px;
   }
   .container-page-foure {
-    margin: auto;
   }
   .section-page-foure {
     background-color: var(--color-cloud);
-    margin: auto;
+
     justify-content: center;
   }
   .list-card {
     list-style: none;
     /* display: flex; */
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
   }
   .text-team {
@@ -220,6 +373,8 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     width: 264px;
     height: 428px;
+    margin: 0 auto;
+    margin-bottom: 45px;
   }
   .container-worker {
     margin-top: 32px 0;
@@ -263,6 +418,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 24px;
+    max-width: 552px;
+    margin: 0 auto;
   }
   .text-team {
     color: var(--color-slate);
@@ -296,7 +454,6 @@
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     width: 264px;
-    height: 428px;
   }
 
   .icon-list-item {
@@ -331,7 +488,7 @@
     background-color: var(--color-ocean);
   }
   .container-worker {
-    margin-top: 32px 0;
+    margin: 0 auto;
   }
 }
 /* computer-version */
@@ -370,7 +527,7 @@
     list-style: none;
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     margin: auto;
   }
@@ -439,7 +596,6 @@
     background-color: var(--color-ocean);
   }
   .container-worker {
-    margin-top: 32px 0;
   }
 }
 @media screen and (min-width: 428px) {
@@ -630,3 +786,4 @@
     color: var(--color-ocean);
   }
 }
+/* footer */
