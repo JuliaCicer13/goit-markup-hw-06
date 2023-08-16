@@ -249,8 +249,8 @@ body {
 /* margin: auto; */
 /* } */
 ul {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: auto;
 }
 .title {
   color: var(--color-navy-blue);
