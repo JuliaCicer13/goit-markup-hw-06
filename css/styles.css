@@ -432,14 +432,14 @@ img {
 }
 .list-customers {
   display: flex;
-  gap: 24px;
+  /* gap: 24px; */
 }
 .icon-customers {
   display: flex;
   fill: currentColor;
 }
 .icon-group {
-  width: calc((100% - 120px) / 6);
+  /* width: calc((100% - 120px) / 6); */
   list-style: none;
   height: 88px;
 }
