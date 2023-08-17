@@ -28,7 +28,7 @@ body {
 }
 
 /* HEADER */
-.page-header .container {
+.page-header .container-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ body {
   margin: auto;
   display: flex;
 }
-.container {
+.container-head {
   margin: 0 auto;
 }
 .page-nav {
