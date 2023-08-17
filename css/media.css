@@ -234,7 +234,6 @@
     text-transform: capitalize;
     margin: auto;
     height: 40px;
-    /* width: calc((100% - 72px) / 4); */
     font-weight: 700;
     margin-bottom: 72px;
   }
