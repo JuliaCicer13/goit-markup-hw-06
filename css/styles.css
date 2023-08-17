@@ -44,7 +44,6 @@ body {
   width: 320px;
   margin: auto;
   display: flex;
-  justify-content: center;
 }
 .container-head {
   margin: 0 auto;
