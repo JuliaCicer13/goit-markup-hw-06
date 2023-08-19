@@ -126,6 +126,7 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
+  display: none;
 }
 
 .text-adress {
@@ -248,10 +249,7 @@ body {
 /* h6 { */
 /* margin: auto; */
 /* } */
-ul {
-  padding: 0;
-  margin: auto;
-}
+
 .title {
   color: var(--color-navy-blue);
   font-family: var(--primary-font);
@@ -329,7 +327,7 @@ img {
   margin-bottom: 72px;
 }
 .container-page-foure {
-  margin: auto;
+  margin: 0 auto;
 }
 .section-page-foure {
   background-color: var(--color-cloud);
@@ -370,6 +368,7 @@ img {
   justify-content: center;
   gap: 24px;
   list-style: none;
+  padding: 0;
 }
 .social-icon {
   width: 40px;
@@ -404,14 +403,18 @@ img {
   width: 264px;
   height: 428px;
   margin-bottom: 72px;
-  margin: 0%, auto;
 }
 .container-worker {
   margin-top: 32px 0;
-  margin: 0%, auto;
+  margin: 0 auto;
 }
 /* section-five */
-
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  width: 100%;
+}
 .container-page-five {
   margin: auto;
 }
@@ -431,15 +434,17 @@ img {
   text-align: center;
 }
 .list-customers {
+  flex-wrap: wrap;
   display: flex;
-  /* gap: 24px; */
+  justify-content: center;
+  gap: 72px 16px;
 }
 .icon-customers {
   display: flex;
   fill: currentColor;
 }
 .icon-group {
-  /* width: calc((100% - 120px) / 6); */
+  width: calc((100% - 16px) / 2);
   list-style: none;
   height: 88px;
 }
@@ -484,6 +489,7 @@ img {
 .container-footer {
   /* display: flex; */
   /* align-items: baseline; */
+  text-align: center;
 }
 .logo-footer-container {
   /* margin-right: 120px; */
@@ -500,12 +506,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .span-studio-footer {
   color: var(--color-cloud);
 }
 .container-media {
   /* margin-right: 80px; */
+  margin-bottom: 72px;
+  
 }
 .title-media {
   font-family: var(--primary-font);
@@ -523,6 +533,7 @@ img {
   display: flex;
   gap: 16px;
   list-style: none;
+  justify-content: center;
 }
 .icon-ecllipse {
   width: 40px;
@@ -605,6 +616,7 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+  margin-top: 16px;
 }
 .icon-telegramm {
   margin-left: 16px;
