@@ -43,7 +43,9 @@ body {
 .container-header {
   display: flex;
 }
-
+.container-header-portfolio {
+  width: 1158px;
+}
 .page-nav {
   display: flex;
   align-items: center;
@@ -823,7 +825,7 @@ img {
 .container-portfolio {
   justify-content: center;
   margin: 0 auto;
-  max-width: 1158px;
+  width: 1158px;
 }
 /* buttons */
 .list-filter {
@@ -969,7 +971,8 @@ a:focus .text-transform {
 .container-footer-portfolio {
   display: flex;
   align-items: baseline;
-  max-width: 1158px;
+
+  width: 1158px;
 }
 .logo-footer-container-portfolio {
   margin-right: 120px;
@@ -1050,8 +1053,8 @@ a:focus .text-transform {
   letter-spacing: 0.02em;
   padding-top: 8px;
 }
-.form {
-  /* display: flex; */
+.form-portfolio {
+  display: flex;
   gap: 24px;
 }
 .label {
@@ -1087,7 +1090,7 @@ a:focus .text-transform {
   padding-left: 24px;
   padding-bottom: 8px;
   min-width: 165px;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
