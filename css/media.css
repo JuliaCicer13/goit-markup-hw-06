@@ -15,8 +15,7 @@
   .container-header {
     display: flex;
   }
-  .container-head {
-  }
+
   .page-nav {
     display: flex;
     align-items: center;
@@ -105,12 +104,12 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     display: inline-block;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .menu-open-btn {
     margin-left: auto;
     display: flex;
+    background-color: var(--color-white);
   }
   .icon-mob-open {
     color: var(--color-navy-blue);
@@ -208,8 +207,10 @@
     width: 40px;
     height: 40px;
     display: flex;
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
+    background-color: var(--color-iris);
   }
   .section-title {
     font-family: var(--primary-font);
@@ -252,8 +253,7 @@
 
     display: flex;
   }
-  .container-head {
-  }
+
   .page-nav {
     display: flex;
   }
@@ -361,8 +361,7 @@
     margin-left: auto;
     margin-bottom: 32px;
   }
-  .mob-menu-nav {
-  }
+
   .mob-menu-link-studio {
     font-family: var(--primary-font);
     font-weight: 700;
@@ -464,10 +463,7 @@
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
-  .container-header {
-  }
-  .container-head {
-  }
+
   .page-nav {
     display: flex;
   }
@@ -810,8 +806,7 @@
     font-weight: 700;
     margin-bottom: 72px;
   }
-  .container-page-foure {
-  }
+
   .section-page-foure {
     background-color: var(--color-cloud);
     justify-content: center;
@@ -888,7 +883,7 @@
     margin-bottom: 45px;
   }
   .container-worker {
-    margin-top: 32px 0;
+    margin-top: 32px;
   }
 }
 /* table */
@@ -998,9 +993,6 @@
   .icon-card:focus {
     background-color: var(--color-ocean);
   }
-  .container-worker {
-    margin: 0 auto;
-  }
 }
 /* computer-version */
 @media screen and (min-width: 1158px) {
@@ -1105,8 +1097,6 @@
   }
   .icon-card:focus {
     background-color: var(--color-ocean);
-  }
-  .container-worker {
   }
 }
 @media screen and (min-width: 428px) {
@@ -1438,7 +1428,7 @@
   .form-input::placeholder {
     color: var(--color-white);
   }
-  .bunnot-submite {
+  .button-submite {
     width: 165px;
     height: 40px;
     margin-left: 24px;
@@ -1759,7 +1749,7 @@
   .form-input::placeholder {
     color: var(--color-white);
   }
-  .bunnot-submite {
+  .button-submite {
     width: 165px;
     height: 40px;
     margin-left: 24px;
