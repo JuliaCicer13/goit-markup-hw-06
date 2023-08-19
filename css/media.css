@@ -206,10 +206,8 @@
     gap: 56px;
   }
   .icon-mob {
-    background-color: var(--color-iris);
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
