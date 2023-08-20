@@ -592,7 +592,7 @@ img {
 .form-input::placeholder {
   color: var(--color-white);
 }
-.bunnot-submite {
+.bunnot-submite-portfolio {
   width: 165px;
   height: 40px;
   margin-left: 24px;
