@@ -162,13 +162,12 @@ body {
 .section-title {
   font-family: var(--primary-font);
   color: var(--color-white);
-  /* font-size: 56px; */
-  /* line-height: 1.07; */
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  height: 120px;
   margin: auto;
-  /* max-width: 496px; */
+  max-width: 496px;
   margin-bottom: 48px;
 }
 
@@ -554,7 +553,6 @@ img {
 }
 .comment {
   color: var(--color-white);
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1042,7 +1040,6 @@ a:focus .text-transform {
 }
 .comment {
   color: var(--color-white);
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
