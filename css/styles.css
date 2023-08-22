@@ -43,9 +43,7 @@ body {
 .container-header {
   display: flex;
 }
-.container-header-portfolio {
-  width: 1158px;
-}
+
 .page-nav {
   display: flex;
   align-items: center;
@@ -804,11 +802,8 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* PORTFOLIO */
-.scroll-portfolio {
-  display: flex;
-  gap: 40px;
-}
-.page-adress-portfolio {
+
+.page-adress {
   font-style: normal;
   margin-left: auto;
   display: block;
@@ -951,7 +946,10 @@ a:focus .text-transform {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.logo-footer {
+.container-portfo {
+  justify-content: center;
+}
+.logo-footer-portfolio {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
@@ -962,20 +960,24 @@ a:focus .text-transform {
   display: flex;
   display: inline-block;
   margin-bottom: 16px;
+  width: 115px;
+  height: 24px;
 }
 .container-footer-portfolio {
   display: flex;
   align-items: baseline;
-  margin: 0;
 }
 .logo-footer-container-portfolio {
   margin-right: 120px;
 }
-.page-footer {
+.page-footer-portfolio {
   background-color: var(--color-navy-blue);
-  margin: 0 auto;
   padding: 100px 0;
+  width: 1440px;
+  height: 312px;
+  margin: 0 auto;
 }
+
 .footer-text {
   color: var(--color-cloud);
   font-family: var(--primary-font);
@@ -1038,22 +1040,25 @@ a:focus .text-transform {
 /* E-mail */
 .container-subscribe {
 }
-.comment {
+
+.comment-portfolio {
   color: var(--color-white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 8px;
+  margin-bottom: 16px;
 }
 .form-portfolio {
   display: flex;
   gap: 24px;
 }
-.label {
+.label-portfolio {
   margin: auto;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
+
+  opacity: 0.5;
 }
 .form-input {
   width: 264px;
