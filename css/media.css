@@ -1003,7 +1003,6 @@
 
   .section-page-one {
     background-color: var(--color-navy-blue);
-    max-width: 1440px;
     margin: auto;
     padding: 120px 0;
     background-image: linear-gradient(
@@ -1014,17 +1013,22 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 1440px;
+    height: 600px;
   }
 
   .section-title {
     font-family: var(--primary-font);
     color: var(--color-white);
-    font-size: 56px;
-    line-height: 60px;
+    font-size: 36px;
+    line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
     margin: auto;
     margin-bottom: 48px;
+    font-weight: 700;
+    width: 496px;
+    height: 120px;
   }
   .button-title {
     font-family: var(--primary-font);
@@ -1395,6 +1399,7 @@
     padding: 120px 0;
     margin: auto;
     justify-content: center;
+    background-color: var(--color-cloud);
   }
 
   .section-title-foure {
@@ -1411,12 +1416,7 @@
     font-weight: 700;
     margin-bottom: 72px;
   }
-  .container-page-foure {
-    margin: auto;
-  }
-  .section-page-foure {
-    background-color: var(--color-cloud);
-  }
+
   .list-card {
     list-style: none;
     display: flex;
@@ -2035,7 +2035,7 @@
   .page-footer {
     background-color: var(--color-navy-blue);
     padding: 100px 0;
-    width: 1250px;
+    width: 1450px;
     height: 312px;
   }
   .footer-text {
@@ -2154,6 +2154,7 @@
     border-radius: 4px;
     margin-left: 24px;
     margin: 0 auto;
+    padding-top: 8px;
   }
   .icon-telegramm {
     margin-left: 16px;
