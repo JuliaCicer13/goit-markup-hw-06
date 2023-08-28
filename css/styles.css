@@ -51,12 +51,10 @@ body {
 .logo-type-web {
   font-family: var(--logo-font);
   font-weight: 800;
-  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-
   display: flex;
 }
 
@@ -465,7 +463,6 @@ img {
 .logo-footer {
   font-family: var(--logo-font);
   font-weight: 800;
-  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -963,7 +960,6 @@ a:focus .text-transform {
 .logo-footer-portfolio {
   font-family: var(--logo-font);
   font-weight: 800;
-  font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
