@@ -803,11 +803,22 @@ p {
 }
 /* PORTFOLIO */
 
-.page-adress {
-  font-style: normal;
-  margin-left: auto;
-  display: block;
+.container-header-portfolio {
+  width: 1440px;
+  height: 72px;
 }
+.list-portfolio-nav {
+  display: flex;
+  list-style: none;
+  column-gap: 24px;
+  margin-left: 76px;
+}
+.list-adress-portfolio {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -973,7 +984,7 @@ a:focus .text-transform {
 .page-footer-portfolio {
   background-color: var(--color-navy-blue);
   padding: 100px 0;
-  width: 1440px;
+
   height: 312px;
   margin: 0 auto;
 }
