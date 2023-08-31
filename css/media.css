@@ -243,15 +243,10 @@
   .section-title {
     font-family: var(--primary-font);
     color: var(--color-white);
-    /* font-size: 56px; */
-    /* line-height: 1.07; */
     letter-spacing: 0.02em;
     text-align: center;
-    width: 320px;
-    height: 80px;
+    max-width: 320px;
     margin: auto;
-    /* max-width: 496px; */
-    margin-bottom: 48px;
     font-weight: 700;
     font-size: 30px;
   }
@@ -345,7 +340,6 @@
     margin-bottom: 48px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 20px;
   }
   .container-two {
     max-width: 320px;
@@ -484,6 +478,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-top: 8px;
+    margin-bottom: 16px;
   }
 }
 
@@ -730,7 +725,6 @@
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
-    height: 120px;
     margin: 0 auto;
     max-width: 320px;
     margin-bottom: 48px;
@@ -1022,7 +1016,7 @@
     margin-bottom: 48px;
     font-weight: 700;
     max-width: 496px;
-    line-height: 1.07;
+    line-height: 60px;
     letter-spacing: 0.02em;
   }
   .button-title {
@@ -1091,7 +1085,6 @@
     letter-spacing: 0.01em;
     padding-bottom: 72px;
     font-weight: 500;
-    margin-bottom: 72px;
   }
 }
 /* table */
@@ -1117,7 +1110,6 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    padding-bottom: 72px;
   }
 }
 /* computer-version */
@@ -1163,9 +1155,7 @@
     font-family: var(--primary-font);
     font-size: 16px;
     letter-spacing: 0.01em;
-    padding-bottom: 72px;
     line-height: 24px;
-    height: 72px;
     font-weight: 400;
   }
 }
@@ -1407,7 +1397,7 @@
     text-transform: capitalize;
     margin: auto;
     height: 40px;
-    width: calc((100% - 72px) / 4);
+
     font-weight: 700;
     margin-bottom: 72px;
   }
@@ -1940,6 +1930,7 @@
     letter-spacing: 0.02em;
     padding-top: 8px;
     text-align: left;
+    margin: 0 auto;
   }
   .form {
     /* display: flex; */
@@ -1997,10 +1988,6 @@
   }
 }
 @media screen and (min-width: 1158px) {
-  .container-foot {
-    max-width: 1158px;
-  }
-
   .logo-footer {
     font-family: var(--logo-font);
     font-weight: 800;
@@ -2103,7 +2090,6 @@
   .label {
     display: flex;
     justify-content: center;
-    padding-left: 20px;
     opacity: 0.5;
   }
   .form-input {
