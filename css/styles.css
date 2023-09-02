@@ -196,7 +196,6 @@ body {
 /* SECTION PAGE TWO */
 /* DESIGN TITLE-TEXT AND DESIGN TITLE-SECTION FOR ALL  */
 .section-page-two {
-  padding: 120px 0;
 }
 .container-page-two {
   margin: auto;
@@ -295,8 +294,8 @@ img {
 /* section-page-foure */
 /* OurTeam */
 .section-page-foure {
-  padding: 120px 0;
-  margin: auto;
+  padding: 70px 0;
+  margin: 0 auto;
   justify-content: center;
 }
 
@@ -497,7 +496,7 @@ img {
   justify-content: center;
 }
 .form-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
