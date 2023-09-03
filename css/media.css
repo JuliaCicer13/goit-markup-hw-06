@@ -241,9 +241,23 @@
   .container-first {
     max-width: 320px;
   }
-  .container-page-one {
+
+  .section-page-one {
+    background-color: var(--color-navy-blue);
+    /* max-width: 1440px; */
+    /* height: 600px; */
     margin: auto;
+    padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
+
   .section-title {
     font-family: var(--primary-font);
     color: var(--color-white);
@@ -252,7 +266,8 @@
     max-width: 320px;
     margin: auto;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 36px;
+    line-height: 40px;
   }
   /* SECTION PAGE TWO */
   .section-page-two {
@@ -1036,7 +1051,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/Dark-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1053,7 +1068,7 @@
     margin-bottom: 48px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 48px;
   }
   .button-title {
     font-family: var(--primary-font);
@@ -1203,7 +1218,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office.jpg);
+      url(../images/Dark-bg-leptop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
