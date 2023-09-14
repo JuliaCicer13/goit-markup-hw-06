@@ -305,7 +305,7 @@
     overflow: hidden;
   }
   .list-title-text {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
 
   .button-submite {
@@ -570,7 +570,7 @@
     margin-top: 32px;
   }
   .list-title-text {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
   .title {
     color: var(--color-navy-blue);
@@ -1593,7 +1593,7 @@
     max-width: 428px;
   }
   .list-title-text {
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
   .list-two {
     display: flex;
