@@ -252,12 +252,22 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg.jpg);
+      url(../images/Dark-bg-img-mobile-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192pdi),
+    (min-resolution: 2dppx) {
+    .section-page-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-mobile-2x.jpg);
+    }
+  }
   .section-title {
     font-family: var(--primary-font);
     color: var(--color-white);
@@ -1051,10 +1061,21 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg.jpg);
+      url(../images/Dark-bg-img-mobile-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192pdi),
+    (min-resolution: 2dppx) {
+    .section-page-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-mobile-2x.jpg);
+    }
   }
   .section-title {
     font-family: var(--primary-font);
@@ -1218,12 +1239,22 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg-leptop.jpg);
+      url(../images/Dark-bg-tablet-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192pdi),
+    (min-resolution: 2dppx) {
+    .section-page-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tablet-2x.jpg);
+    }
+  }
   .button-title {
     font-family: var(--primary-font);
     background-color: var(--color-iris);
@@ -1542,7 +1573,17 @@
     background-size: cover;
     height: 600px;
   }
-
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192pdi),
+    (min-resolution: 2dppx) {
+    .section-page-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
+  }
   .section-title {
     font-family: var(--primary-font);
     color: var(--color-white);
