@@ -203,8 +203,6 @@ body {
 .list-two {
   /* display: flex; */
   list-style: none;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .icon-section-two {
   display: flex;
@@ -389,7 +387,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   width: 264px;
   height: 428px;
-  margin-bottom: 72px;
 }
 
 /* page-footer */
