@@ -1258,10 +1258,10 @@
     font-family: var(--primary-font);
     color: var(--color-white);
     font-size: 56px;
-    letter-spacing: 2px;
+    letter-spacing: 0.02em;
     text-align: center;
     margin: auto;
-    width: 496px;
+    max-width: 496px;
     top: 184px;
     left: 136px;
     line-height: 60px;
