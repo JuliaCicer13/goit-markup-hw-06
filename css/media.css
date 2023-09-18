@@ -281,7 +281,7 @@
   }
   /* SECTION PAGE TWO */
   .section-page-two {
-    margin-top: 96px;
+    padding: 96px 0;
   }
   .container-page-two {
     margin: auto;
@@ -289,8 +289,6 @@
   .list-two {
     /* display: flex; */
     list-style: none;
-    padding-left: 16px;
-    padding-right: 16px;
   }
   .icon-section-two {
     display: flex;
@@ -313,9 +311,6 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
-  .list-title-text {
-    padding-bottom: 72px;
   }
 
   .button-submite {
@@ -465,8 +460,6 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     width: 264px;
     height: 428px;
-    margin: 0 auto;
-    margin-bottom: 45px;
   }
   /* PORTFOLIO */
 
@@ -580,7 +573,6 @@
     margin-top: 32px;
   }
   .list-title-text {
-    padding-bottom: 72px;
   }
   .title {
     color: var(--color-navy-blue);
@@ -637,7 +629,11 @@
     padding: 0 16px;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .list-title-text:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
 @media screen and (min-width: 428px) {
   .container-head {
     margin: 0 auto;
@@ -1214,16 +1210,15 @@
   .list-adress {
     list-style: none;
     display: flex;
-    gap: 40px;
     display: block;
   }
   .adress {
-    gap: 12px;
+    margin-bottom: 12px;
   }
   .text-adress {
     font-family: var(--primary-font);
     color: var(--color-slate);
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -1258,6 +1253,18 @@
         url(../images/Dark-bg-tablet-2x.jpg);
     }
   }
+  .section-title {
+    font-family: var(--primary-font);
+    color: var(--color-white);
+    font-size: 36px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: auto;
+    max-width: 320px;
+    margin-bottom: 48px;
+  }
+
   .button-title {
     font-family: var(--primary-font);
     background-color: var(--color-iris);
@@ -1269,16 +1276,14 @@
     cursor: pointer;
     padding: 16px, 32px, 16px, 32px;
     min-width: 169px;
-    height: 56px;
+    height: 46px;
     display: block;
     margin: auto;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .section-title {
-    font-size: 36px;
-  }
+
   .button-title:hover {
     background-color: var(--color-ocean);
   }
@@ -1482,7 +1487,26 @@
   .container-head {
     margin: 0 auto;
   }
+  .page-adress {
+    font-style: normal;
+  }
 
+  .list-adress {
+    list-style: none;
+    gap: 40px;
+  }
+
+  .text-adress {
+    font-family: var(--primary-font);
+    color: var(--color-slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    display: inline-block;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   .page-header {
     border-bottom: 1px;
     background-color: var(--color-white);
@@ -1636,9 +1660,7 @@
   .container {
     max-width: 428px;
   }
-  .list-title-text {
-    padding-bottom: 72px;
-  }
+
   .list-two {
     display: flex;
     list-style: none;
@@ -1675,7 +1697,7 @@
   }
   .list-two {
     display: flex;
-    gap: 50px;
+    gap: 72px 24px;
   }
   .title {
     line-height: 40px;
@@ -1836,8 +1858,6 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     width: 264px;
     height: 428px;
-    margin: 0 auto;
-    margin-bottom: 45px;
   }
   .container-worker {
     margin-top: 32px;
@@ -1880,8 +1900,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
-    max-width: 552px;
+    gap: 72px 24px;
+
     margin: 0 auto;
   }
   .text-team {
@@ -2571,8 +2591,6 @@
   .page-footer {
     background-color: var(--color-navy-blue);
     padding: 100px 0;
-    width: 768px;
-    height: 456px;
   }
   .footer-text {
     color: var(--color-cloud);
@@ -2727,8 +2745,6 @@
   .page-footer {
     background-color: var(--color-navy-blue);
     padding: 100px 0;
-    width: 1350px;
-    height: 312px;
   }
   .footer-text {
     color: var(--color-cloud);
